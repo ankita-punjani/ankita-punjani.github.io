@@ -19,7 +19,6 @@
 
 html {
   background: var(--paper);
-  scroll-behavior: smooth;
 }
 
 body {
@@ -223,8 +222,8 @@ a:focus-visible {
 .hero-details {
   display: grid;
   max-width: 760px;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 0.8rem 2rem;
+  grid-template-columns: 1fr;
+  gap: 0.8rem;
   margin-top: 2rem;
   padding-top: 1.2rem;
   border-top: 1px solid var(--line);
@@ -322,9 +321,7 @@ a:focus-visible {
 }
 
 .impact-item {
-  display: grid;
-  grid-template-columns: 2.4rem minmax(0, 1fr);
-  gap: 1rem;
+  display: block;
   padding: 1.25rem 0;
   border-top: 1px solid var(--line);
 }
@@ -340,6 +337,11 @@ a:focus-visible {
   font-size: 0.73rem;
   font-weight: 800;
   letter-spacing: 0.1em;
+}
+
+.impact-number {
+  display: block;
+  margin-bottom: 0.35rem;
 }
 
 .impact-value {
@@ -489,15 +491,23 @@ a:focus-visible {
 }
 
 .experience-entry {
-  display: grid;
-  grid-template-columns: minmax(130px, 0.62fr) minmax(0, 2fr);
-  gap: clamp(1.4rem, 5vw, 4rem);
+  display: block;
   padding: 2.3rem 0 2.6rem;
   border-bottom: 1px solid var(--line);
 }
 
 .experience-meta p {
   margin: 0;
+}
+
+.experience-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.65rem;
+}
+
+.experience-content {
+  margin-top: 0.75rem;
 }
 
 .experience-dates {
@@ -694,15 +704,7 @@ a:focus-visible {
   }
 
   .experience-entry {
-    grid-template-columns: 1fr;
-    gap: 0.7rem;
     padding: 1.8rem 0 2rem;
-  }
-
-  .experience-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.2rem 0.65rem;
   }
 
   .experience-location {

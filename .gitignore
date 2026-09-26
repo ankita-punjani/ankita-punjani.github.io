@@ -4,5 +4,9 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/bundle/
+.local/
+.agents/
+.cache/
+attached_assets/
 .DS_Store
 Thumbs.db
