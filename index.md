@@ -42,7 +42,7 @@ permalink: /
       <h2 id="bay-view-title">This is my<br><span class="accent-text">everyday view.</span><br>What’s yours?</h2>
     </div>
     <div class="bay-area-aside">
-      <p>From Berkeley to Silicon Valley, I’m surrounded by people turning bold ideas into real things. This view reminds me to keep looking up—and asking what’s next.</p>
+      <p>From Berkeley to Silicon Valley, I’m surrounded by people turning bold ideas into real things. This view reminds me to keep looking up and ask what’s next.</p>
       <a class="text-link" href="{{ '/contact/' | relative_url }}">Share your view <span aria-hidden="true">↗</span></a>
     </div>
   </div>
@@ -86,7 +86,7 @@ permalink: /
 <section class="moments-section" aria-labelledby="moments-title">
   <div class="site-shell">
     <header class="moments-intro">
-      <p class="eyebrow">Beyond the bullet points / 01—04</p>
+      <p class="eyebrow">Beyond the bullet points / 01-04</p>
       <div>
         <h2 id="moments-title">The best ideas<br>leave the page.</h2>
         <p class="moments-lede">From Berkeley to Fremont: people and places that bring technology, AI, and big ideas into focus.</p>
@@ -102,7 +102,7 @@ permalink: /
         <div class="story-copy">
           <p class="eyebrow">At Haas</p>
           <h3>More voices. Better questions.</h3>
-          <p>I enjoy leading student panels at Haas—bringing different perspectives into the room and making space for the questions worth asking.</p>
+          <p>I enjoy leading student panels at Haas, bringing different perspectives into the room and making space for the questions worth asking.</p>
         </div>
       </article>
 
@@ -126,7 +126,7 @@ permalink: /
         <div class="story-copy">
           <p class="eyebrow">On the ground</p>
           <h3>Where code meets steel.</h3>
-          <p>Touring Tesla’s robotic factory in Fremont brought automation out of the abstract and into motion. Software, machines, and manufacturing at scale—seen up close.</p>
+          <p>Touring Tesla’s robotic factory in Fremont brought automation out of the abstract and into motion. I saw software, machines, and manufacturing at scale up close.</p>
         </div>
       </article>
 

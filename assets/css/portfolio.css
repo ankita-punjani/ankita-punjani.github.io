@@ -1,13 +1,13 @@
 :root {
   color-scheme: light;
-  --paper: #faf8f3;
-  --surface: #eee9df;
-  --ink: #1d2b29;
-  --muted: #4d605b;
-  --line: #d1d8d0;
-  --accent: #a33d2c;
-  --accent-strong: #762819;
-  --focus: #204bb5;
+  --paper: #f7f9fa;
+  --surface: #e6eef2;
+  --ink: #142c3d;
+  --muted: #526878;
+  --line: #d4dfe4;
+  --accent: #ad4536;
+  --accent-strong: #84342d;
+  --focus: #1c5e89;
   --shell: 1100px;
   --reading: 820px;
   --sans: "DejaVu Sans", Arial, Helvetica, sans-serif;
@@ -324,7 +324,7 @@ a:focus-visible {
 
 .bay-area-section {
   padding-block: clamp(3.8rem, 6vw, 5.4rem) clamp(2.5rem, 5vw, 4rem);
-  background: #e9e3d8;
+  background: #e3edf2;
 }
 
 .bay-area-intro {
@@ -450,8 +450,8 @@ a:focus-visible {
 
 .moments-section {
   padding: clamp(4rem, 7vw, 6.5rem) 0;
-  color: #f8f6f0;
-  background: #1b2a28;
+  color: #f7fafb;
+  background: #142c3d;
 }
 
 .moments-intro {
@@ -464,7 +464,7 @@ a:focus-visible {
 
 .moments-intro .eyebrow,
 .story-copy .eyebrow {
-  color: #efb58e;
+  color: #ffbd98;
 }
 
 .moments-intro h2 {
@@ -479,7 +479,7 @@ a:focus-visible {
 .moments-lede {
   max-width: 36rem;
   margin: 1rem 0 0;
-  color: #c8d2cd;
+  color: #c5d4dc;
   font-size: 1.05rem;
 }
 
@@ -531,7 +531,7 @@ a:focus-visible {
 
 .story-media figcaption {
   margin-top: 0.8rem;
-  color: #b8c9c3;
+  color: #b8ccd6;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -558,19 +558,19 @@ a:focus-visible {
 
 .story-copy p:last-child {
   margin: 0;
-  color: #d3ddd7;
+  color: #d5e1e7;
   font-size: 0.98rem;
   line-height: 1.7;
 }
 
 .story-copy a {
-  color: #f8f6f0;
-  text-decoration-color: #efb58e;
+  color: #f7fafb;
+  text-decoration-color: #ffbd98;
   text-decoration-thickness: 1px;
 }
 
 .story-copy a:hover {
-  color: #efb58e;
+  color: #ffbd98;
 }
 
 .page-intro {

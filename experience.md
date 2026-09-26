@@ -8,7 +8,7 @@ permalink: /experience/
   <header class="page-intro">
     <p class="eyebrow">Work profile</p>
     <h1>Work across<br><span class="accent-text">tech and finance.</span></h1>
-    <p class="page-lede">A common thread across my work is how companies grow—through strategy for consumer-tech clients, private equity and venture investing, and investment banking.</p>
+    <p class="page-lede">A common thread across my work is how companies grow: through strategy for consumer-tech clients, private equity and venture investing, and investment banking.</p>
   </header>
 
   <section class="content-section" aria-labelledby="companies-title">
