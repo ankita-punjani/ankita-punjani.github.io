@@ -8,7 +8,7 @@ permalink: /about/
   <header class="page-intro">
     <p class="eyebrow">About</p>
     <h1>Business, technology,<br><span class="accent-text">and a creative life.</span></h1>
-    <p class="page-lede">I’m an MBA candidate at UC Berkeley Haas, with interests spanning consumer technology, investing, leadership, and creative pursuits.</p>
+    <p class="page-lede">I’m an MBA candidate at UC Berkeley Haas in the Bay Area, with interests spanning consumer technology, investing, leadership, and creative pursuits.</p>
   </header>
 
   <section class="content-section" aria-labelledby="path-title">
