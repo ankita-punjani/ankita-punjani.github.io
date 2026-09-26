@@ -6,8 +6,8 @@ Create a static Jekyll portfolio for `ankita-punjani.github.io`, published from 
 ## Pages and content
 - **Home:** A concise introduction and selected career highlights grounded in the résumé.
 - **About:** MBA studies at UC Berkeley Haas, education, leadership, skills, and interests supplied in the résumé.
-- **Work Experience:** Harlem Capital — VC Intern (Fall 2026), as supplied by the user; Strategy& (PwC) — Senior Associate Intern, Private Equity Value Creation, Technology (TMT), San Francisco (Summer 2026); Stellaris Venture Partners (India) — Chief of Staff; Bain & Company — PE consulting; and J.P. Morgan — Investment Banking.
-- **Education:** UC Berkeley Haas MBA, Class of 2027; Shri Ram College of Commerce, University of Delhi, B.Com. (Hons.), 2018–2021.
+- **Work Experience:** Harlem Capital - VC Intern (Fall 2026), as supplied by the user; Strategy& (PwC) - Senior Associate Intern, Private Equity Value Creation, Technology (TMT), San Francisco (Summer 2026); Stellaris Venture Partners (India) - Chief of Staff; Bain & Company - PE consulting; and J.P. Morgan - Investment Banking.
+- **Education:** UC Berkeley Haas MBA, Class of 2027; Shri Ram College of Commerce, University of Delhi, B.Com. (Hons.), 2018-2021, identified in the résumé and by the user as India's No. 1 business college.
 - **Contact:** A public `mailto:ankita_punjani@berkeley.edu` link, plus the supplied LinkedIn and GitHub profile links.
 
 Use the résumé and details the user supplied in chat as the source of truth. Use its supported titles, dates, and accomplishments for Stellaris, Bain, and J.P. Morgan. The user has not supplied Harlem Capital accomplishments; show only its supplied role and term, with any missing detail clearly marked as a placeholder. Do not retrieve content from LinkedIn or invent employers, projects, claims, or metrics. Do not publish the phone number unless requested separately.
