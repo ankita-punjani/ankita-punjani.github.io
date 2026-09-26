@@ -1,6 +1,6 @@
 ---
 title: Work Profile
-description: Ankita Punjani’s experience across consumer technology strategy, private equity and venture investing, and investment banking.
+description: Ankita Punjani’s experience at Harlem Capital, Strategy&, Stellaris Venture Partners, Bain & Company, and JPMorgan Chase.
 permalink: /experience/
 ---
 
@@ -8,24 +8,64 @@ permalink: /experience/
   <header class="page-intro">
     <p class="eyebrow">Work profile</p>
     <h1>Work across<br><span class="accent-text">tech and finance.</span></h1>
-    <p class="page-lede">A common thread across my work is how companies grow: through strategy for consumer-tech clients, private equity and venture investing, and investment banking.</p>
+    <p class="page-lede">I’m interested in how companies grow and how technology changes everyday life. My experience spans early-stage venture capital, private-equity consulting, and investment banking.</p>
   </header>
 
   <section class="content-section" aria-labelledby="companies-title">
     <h2 id="companies-title">Companies</h2>
     <ul class="company-list">
-      <li>Harlem Capital</li>
-      <li>Strategy&amp; (PwC)</li>
-      <li>Stellaris Venture Partners</li>
-      <li>Bain &amp; Company</li>
-      <li>J.P. Morgan</li>
+      <li class="company-item company-item-featured">
+        <a class="company-link" href="https://harlem.capital/" target="_blank" rel="noopener noreferrer">
+          <span class="company-logo-frame company-logo-frame-harlem"><img class="company-logo" src="{{ '/assets/images/companies/harlem-capital.svg' | relative_url }}" alt="" width="200" height="72" loading="lazy"></span>
+          <span class="company-copy">
+            <strong class="company-name">Harlem Capital</strong>
+            <span class="company-meta">Part-time · Fall 2026 Venture Capital Intern</span>
+          </span>
+          <span class="company-arrow" aria-hidden="true">↗</span>
+        </a>
+        <p class="company-summary">I work across sourcing, portfolio calls, and deal calls in a holistic, high-ownership role.</p>
+      </li>
+      <li class="company-item">
+        <a class="company-link" href="https://www.strategyand.pwc.com/" target="_blank" rel="noopener noreferrer">
+          <span class="company-logo-frame"><img class="company-logo company-logo-icon" src="{{ '/assets/images/companies/strategy-and.ico' | relative_url }}" alt="" width="36" height="36" loading="lazy"></span>
+          <span class="company-copy">
+            <strong class="company-name">Strategy&amp; (PwC)</strong>
+            <span class="company-meta">Private-equity consulting</span>
+          </span>
+          <span class="company-arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+      <li class="company-item">
+        <a class="company-link" href="https://www.stellarisvp.com/" target="_blank" rel="noopener noreferrer">
+          <span class="company-logo-frame company-logo-frame-stellaris"><img class="company-logo" src="{{ '/assets/images/companies/stellaris-vp.png' | relative_url }}" alt="" width="200" height="72" loading="lazy"></span>
+          <span class="company-copy">
+            <strong class="company-name">Stellaris Venture Partners</strong>
+            <span class="company-meta">Pre-MBA Investments Intern · Chief of Staff</span>
+          </span>
+          <span class="company-arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+      <li class="company-item">
+        <a class="company-link" href="https://www.bain.com/" target="_blank" rel="noopener noreferrer">
+          <span class="company-logo-frame"><img class="company-logo" src="{{ '/assets/images/companies/bain-and-company.svg' | relative_url }}" alt="" width="200" height="72" loading="lazy"></span>
+          <span class="company-copy">
+            <strong class="company-name">Bain &amp; Company</strong>
+            <span class="company-meta">Private-equity consulting</span>
+          </span>
+          <span class="company-arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+      <li class="company-item">
+        <a class="company-link" href="https://www.jpmorganchase.com/" target="_blank" rel="noopener noreferrer">
+          <span class="company-logo-frame"><img class="company-logo" src="{{ '/assets/images/companies/jpmorgan-chase.svg' | relative_url }}" alt="" width="200" height="72" loading="lazy"></span>
+          <span class="company-copy">
+            <strong class="company-name">JPMorgan Chase</strong>
+            <span class="company-meta">Investment banking</span>
+          </span>
+          <span class="company-arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
     </ul>
-  </section>
-
-  <section class="content-section" aria-labelledby="harlem-role-title">
-    <p class="detail-overline">Harlem Capital</p>
-    <h2 id="harlem-role-title">Fall 2026 Venture Capital Intern</h2>
-    <p>I work across sourcing, portfolio calls, and deal calls in a holistic, high-ownership role.</p>
   </section>
 
   <p class="page-end-link"><a class="button button-primary" href="https://www.linkedin.com/in/ankita-punjani" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a></p>

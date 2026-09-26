@@ -10,12 +10,12 @@ A static Jekyll portfolio for publication from the `main` branch and repository 
 - `assets/css/portfolio.css`: responsive portfolio styles
 - `_config.yml`: GitHub Pages site URL, empty base URL, SEO, and sitemap settings
 
-Keep content factual to the supplied résumé and user-provided details. Do not fetch content from LinkedIn or publish the résumé's phone number.
+Keep content factual to the supplied résumé and user-provided details. Do not fetch content from LinkedIn or publish the résumé's phone number. Company-specific details are limited to those Ankita explicitly approved: part-time Fall 2026 Venture Capital Intern at Harlem Capital; private-equity consulting at Bain and Strategy&; investment banking at JPMorgan Chase; and Pre-MBA Investments Intern and Chief of Staff at Stellaris Venture Partners.
 
 ## Content preferences
 
 - Lead with consumer technology strategy, private equity and venture investing, and investment banking, while keeping the personal facts visible near the top.
-- Keep the Work Profile centered on broad areas and company names. Retain the specifically approved Harlem Capital entry; do not add other company details, dates, projects, or metrics without a request.
+- Give company names stronger visual emphasis than role details, with small linked company logos. Keep the Work Profile centered on the company list and the specific work details approved above; do not add other company details, dates, projects, or metrics.
 - Keep education simple: schools, degrees, and class years only. Do not include GPA, class rank, or awards.
 - Include a direct LinkedIn link on the home page and Contact page.
-- Use a restrained, readable layout with a clear type hierarchy. Avoid oversized headlines and decorative card grids; use locally available fonts rather than external font downloads.
+- Use a bold but elegant, readable layout with a clear type hierarchy. The hobbies section can be more graphic; use locally available fonts rather than external font downloads.

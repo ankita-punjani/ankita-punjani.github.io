@@ -1,15 +1,15 @@
 ---
 title: Home
-description: Meet Ankita Punjani, a Berkeley Haas MBA candidate in the Bay Area with experience across consumer-tech strategy, private equity, venture investing, and investment banking.
+description: Meet Ankita Punjani, a Berkeley Haas MBA candidate working part-time at Harlem Capital, with prior investment banking and private-equity consulting experience.
 permalink: /
 ---
 
 <section class="hero" aria-labelledby="home-title">
   <div class="hero-inner site-shell">
     <div class="hero-main">
-      <p class="eyebrow">Ankita Punjani · Berkeley Haas MBA ’27</p>
-      <h1 id="home-title">Curiosity,<br><span class="accent-text">in motion.</span></h1>
-      <p class="hero-copy">At Berkeley Haas in the Bay Area, I’m curious about the people and decisions behind what gets built next. My work spans consumer-tech strategy, private equity and venture investing, and investment banking.</p>
+      <p class="eyebrow">Berkeley Haas MBA candidate · Class of ’27</p>
+      <h1 id="home-title">Curious about<br><span class="accent-text">what’s next.</span></h1>
+      <p class="hero-copy">I’m a Berkeley Haas MBA candidate (Class of 2027), currently working part-time at Harlem Capital, a leading early-stage venture capital firm. Before Haas, I worked in investment banking at JPMorgan Chase and private-equity consulting at Bain and Strategy&amp;. I’m especially interested in technology projects and consumer tech.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/experience/' | relative_url }}">Explore my work <span aria-hidden="true">↗</span></a>
         <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
@@ -22,17 +22,35 @@ permalink: /
   </div>
 </section>
 
-<section class="personal-strip site-shell" aria-labelledby="life-title">
-  <div class="personal-intro">
-    <p class="eyebrow">Outside work</p>
-    <h2 id="life-title">Off the clock,<br>full speed.</h2>
+<section class="personal-strip" aria-labelledby="life-title">
+  <div class="personal-strip-inner site-shell">
+    <div class="personal-intro">
+      <p class="eyebrow">Outside work</p>
+      <h2 id="life-title">Outside work,<br><span>in motion.</span></h2>
+    </div>
+    <ul class="personal-highlights">
+      <li>
+        <span class="hobby-symbol" aria-hidden="true">✦</span>
+        <strong>Gymnastics</strong>
+        <span>National-level bronze</span>
+      </li>
+      <li>
+        <span class="hobby-symbol" aria-hidden="true">∿</span>
+        <strong>Contemporary dance</strong>
+        <span>Movement, music, expression</span>
+      </li>
+      <li>
+        <span class="hobby-symbol" aria-hidden="true">↓</span>
+        <strong>Skydiving</strong>
+        <span>18,000-foot tandem jump</span>
+      </li>
+      <li>
+        <span class="hobby-symbol" aria-hidden="true">✒</span>
+        <strong>Calligraphy + Zumba</strong>
+        <span>Two more favorites</span>
+      </li>
+    </ul>
   </div>
-  <ul class="personal-highlights">
-    <li><strong>Gymnastics</strong><span>National competition bronze</span></li>
-    <li><strong>Contemporary dance</strong><span>Movement, music, expression</span></li>
-    <li><strong>Skydiving</strong><span>World’s highest tandem jump · 18,000 feet</span></li>
-    <li><strong>Also</strong><span>Calligraphy and Zumba</span></li>
-  </ul>
 </section>
 
 <section class="bay-area-section" aria-labelledby="bay-view-title">
