@@ -8,7 +8,7 @@ permalink: /
   <div class="hero-inner site-shell">
     <div class="hero-main">
       <p class="eyebrow">Berkeley Haas MBA candidate · Class of ’27</p>
-      <h1 id="home-title">Curious about<br><span class="accent-text">what’s next.</span></h1>
+      <h1 id="home-title">I follow the<br><span class="accent-text">interesting question.</span></h1>
       <p class="hero-copy">I’m a Berkeley Haas MBA candidate (Class of 2027), currently working part-time at Harlem Capital, a leading early-stage venture capital firm. Before Haas, I worked in investment banking at JPMorgan Chase and private-equity consulting at Bain and Strategy&amp;. I’m especially interested in technology projects and consumer tech.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/experience/' | relative_url }}">Explore my work <span aria-hidden="true">↗</span></a>
@@ -26,28 +26,33 @@ permalink: /
   <div class="personal-strip-inner site-shell">
     <div class="personal-intro">
       <p class="eyebrow">Outside work</p>
-      <h2 id="life-title">Outside work,<br><span>in motion.</span></h2>
+      <h2 id="life-title">Outside work,<br><span>still in motion.</span></h2>
     </div>
     <ul class="personal-highlights">
       <li>
-        <span class="hobby-symbol" aria-hidden="true">✦</span>
+        <span class="hobby-symbol" aria-hidden="true">01</span>
         <strong>Gymnastics</strong>
-        <span>National-level bronze</span>
+        <span>National-level bronze. I can still do handstands and cartwheels without breaking a bone.</span>
       </li>
       <li>
-        <span class="hobby-symbol" aria-hidden="true">∿</span>
+        <span class="hobby-symbol" aria-hidden="true">02</span>
         <strong>Contemporary dance</strong>
-        <span>Movement, music, expression</span>
+        <span>A little less talking. A lot more counting beats.</span>
       </li>
       <li>
-        <span class="hobby-symbol" aria-hidden="true">↓</span>
+        <span class="hobby-symbol" aria-hidden="true">03</span>
         <strong>Skydiving</strong>
-        <span>18,000-foot tandem jump</span>
+        <span>Tandem. 18,000 feet. A very decisive way to get some perspective.</span>
       </li>
       <li>
-        <span class="hobby-symbol" aria-hidden="true">✒</span>
-        <strong>Calligraphy + Zumba</strong>
-        <span>Two more favorites</span>
+        <span class="hobby-symbol" aria-hidden="true">04</span>
+        <strong>Calligraphy</strong>
+        <span>Proof that a steady hand can have a flair for drama.</span>
+      </li>
+      <li>
+        <span class="hobby-symbol" aria-hidden="true">05</span>
+        <strong>Zumba</strong>
+        <span>Cardio, but make the playlist do the convincing.</span>
       </li>
     </ul>
   </div>
@@ -69,7 +74,7 @@ permalink: /
       <source media="(max-width: 820px)" srcset="{{ '/assets/images/berkeley-bay-view-mobile.webp' | relative_url }}" width="800" height="383">
       <img src="{{ '/assets/images/berkeley-bay-view.webp' | relative_url }}" alt="Berkeley’s Campanile at dusk, with the Bay Bridge and San Francisco Bay in the background." width="1200" height="383" loading="lazy">
     </picture>
-    <figcaption>Berkeley at dusk · The Bay beyond</figcaption>
+    <figcaption>Berkeley at dusk · The Bay making a case for staying out a little longer</figcaption>
   </figure>
 </section>
 
@@ -115,7 +120,7 @@ permalink: /
       <article class="story story-landscape">
         <figure class="story-media">
           <img src="{{ '/assets/images/haas-student-panel.webp' | relative_url }}" alt="Ankita speaking with fellow students on a Berkeley Haas panel." width="1312" height="856" loading="lazy">
-          <figcaption>01 / Berkeley Haas · Student panel</figcaption>
+          <figcaption>01 / Berkeley Haas · A room for better questions</figcaption>
         </figure>
         <div class="story-copy">
           <p class="eyebrow">At Haas</p>
@@ -127,7 +132,7 @@ permalink: /
       <article class="story story-landscape story-reverse">
         <figure class="story-media">
           <img src="{{ '/assets/images/alex-schultz-meeting.webp' | relative_url }}" alt="Group photo from Ankita’s meeting with Alex Schultz." width="1600" height="1200" loading="lazy">
-          <figcaption>02 / Meeting Alex Schultz</figcaption>
+          <figcaption>02 / With Alex Schultz · The people behind the platforms</figcaption>
         </figure>
         <div class="story-copy">
           <p class="eyebrow">People behind the platforms</p>
@@ -139,7 +144,7 @@ permalink: /
       <article class="story story-portrait">
         <figure class="story-media">
           <img src="{{ '/assets/images/tesla-fremont-visit.webp' | relative_url }}" alt="Ankita outside Tesla’s Fremont factory, with the Tesla sign visible on the building." width="1200" height="1600" loading="lazy">
-          <figcaption>03 / Tesla factory tour · Fremont, California</figcaption>
+          <figcaption>03 / Tesla factory tour · Fremont, California · Automation up close</figcaption>
         </figure>
         <div class="story-copy">
           <p class="eyebrow">On the ground</p>
@@ -151,7 +156,7 @@ permalink: /
       <article class="story story-portrait story-reverse">
         <figure class="story-media">
           <img src="{{ '/assets/images/gradient-visit.webp' | relative_url }}" alt="Ankita with Darian Shirazi and others at Gradient Ventures." width="1350" height="1800" loading="lazy">
-          <figcaption>04 / At Gradient Ventures</figcaption>
+          <figcaption>04 / Gradient Ventures · AI investing, off the page</figcaption>
         </figure>
         <div class="story-copy">
           <p class="eyebrow">A recent conversation</p>

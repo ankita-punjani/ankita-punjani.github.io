@@ -13,7 +13,7 @@ Create a static Jekyll portfolio for `ankita-punjani.github.io`, published from 
 Use the résumé and details the user supplied in chat as the source of truth. Do not fetch content from LinkedIn or invent claims. Keep company-specific résumé details limited to those Ankita explicitly approved. Do not publish the phone number unless requested separately.
 
 ## Design
-Responsive, accessible pages with a light theme, clear hierarchy, and a bold but elegant presentation. Keep education simple and use local fonts only. The hobbies section may use a more graphic treatment.
+Responsive, accessible pages with a warm, expressive palette and a bold but elegant presentation. Avoid light blue. Keep education simple and use local fonts only; hobby captions should be playful and grounded in details the user supplied.
 
 ## Implementation
 Keep the complete Jekyll site at the repository root: Markdown pages with YAML front matter, reusable layouts and includes, semantic HTML, CSS, minimal JavaScript, SEO tags, sitemap, and favicon. Include `_config.yml` and a README with GitHub Pages publishing, local preview, and Lighthouse instructions. Check navigation and layouts at 375px and 1280px; target Lighthouse scores of at least 90 in Performance, Accessibility, Best Practices, and SEO.

@@ -18,4 +18,4 @@ Keep content factual to the supplied résumé and user-provided details. Do not 
 - Give company names stronger visual emphasis than role details, with small linked company logos. Keep the Work Profile centered on the company list and the specific work details approved above; do not add other company details, dates, projects, or metrics.
 - Keep education simple: schools, degrees, and class years only. Do not include GPA, class rank, or awards.
 - Include a direct LinkedIn link on the home page and Contact page.
-- Use a bold but elegant, readable layout with a clear type hierarchy. The hobbies section can be more graphic; use locally available fonts rather than external font downloads.
+- Use a bold but elegant, readable layout with a clear type hierarchy. Avoid light-blue color schemes; prefer a warm, expressive palette. Make the hobbies section personal with short, playful captions grounded in user-provided facts. Use locally available fonts rather than external font downloads.
