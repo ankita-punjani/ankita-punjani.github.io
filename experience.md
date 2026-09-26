@@ -1,14 +1,14 @@
 ---
 title: Work Profile
-description: Companies Ankita Punjani has worked with across consulting, investing, and technology.
+description: Ankita Punjani’s experience across consumer technology strategy, private equity and venture investing, and investment banking.
 permalink: /experience/
 ---
 
 <article class="page-shell">
   <header class="page-intro">
-    <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Work profile</p>
-    <h1>A few names.<br><span class="accent-text">A lot of curiosity.</span></h1>
-    <p class="page-lede">My work has moved between strategy, investing, and technology. Here are some of the companies that have been part of the journey.</p>
+    <p class="eyebrow">Work profile</p>
+    <h1>Work across<br><span class="accent-text">tech and finance.</span></h1>
+    <p class="page-lede">My experience spans strategy work with consumer technology clients, private equity and venture investing, and investment banking.</p>
   </header>
 
   <section class="content-section" aria-labelledby="companies-title">

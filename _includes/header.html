@@ -1,12 +1,8 @@
 <header class="site-header">
-  <div class="site-shell">
-    <div class="header-top">
-      <a class="identity" href="{{ '/' | relative_url }}" aria-label="Ankita Punjani, home">
-        <span class="identity-mark" aria-hidden="true">AP</span>
-        <span class="identity-name">Ankita Punjani</span>
-      </a>
-      <p class="header-note">Berkeley Haas <span aria-hidden="true">/</span> MBA '27</p>
-    </div>
+  <div class="site-shell header-bar">
+    <a class="identity" href="{{ '/' | relative_url }}" aria-label="Ankita Punjani, home">
+      <span class="identity-name">Ankita Punjani</span>
+    </a>
     <nav class="primary-nav" aria-label="Main navigation">
       <ul>
         {% for item in site.data.navigation %}

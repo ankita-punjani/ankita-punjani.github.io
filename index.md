@@ -1,56 +1,60 @@
 ---
 title: Home
-description: Meet Ankita Punjani, a UC Berkeley Haas MBA candidate, national gymnastics bronze medalist, contemporary dancer, and tandem skydiver.
+description: Meet Ankita Punjani, a UC Berkeley Haas MBA candidate with experience in consumer technology strategy, private equity and venture investing, and investment banking.
 permalink: /
 ---
 
 <section class="hero site-shell" aria-labelledby="home-title">
-  <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Gymnastics <span aria-hidden="true">/</span> Dance <span aria-hidden="true">/</span> 18,000 feet</p>
-  <h1 id="home-title">A curious mind.<br><span class="accent-text">A life in motion.</span></h1>
-  <p class="hero-copy">I’m Ankita, an MBA candidate at UC Berkeley Haas, curious about strategy, investing, and technology.</p>
-  <div class="hero-actions">
-    <a class="button button-primary" href="{{ '/experience/' | relative_url }}">My work profile <span aria-hidden="true">↗</span></a>
-    <a class="button button-secondary" href="https://www.linkedin.com/in/ankita-punjani" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+  <div class="hero-main">
+    <p class="eyebrow">UC Berkeley Haas MBA candidate · Class of 2027</p>
+    <h1 id="home-title">Consumer tech.<br><span class="accent-text">Strategy &amp; finance.</span></h1>
+    <p class="hero-copy">My experience spans strategy work with consumer technology clients, private equity and venture investing, and investment banking.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="{{ '/experience/' | relative_url }}">View work profile <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="https://www.linkedin.com/in/ankita-punjani" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+    </div>
   </div>
+
+  <aside class="personal-note" aria-label="Personal highlights">
+    <p class="eyebrow">Outside work</p>
+    <ul class="personal-facts">
+      <li>
+        <span class="personal-fact-title">Gymnastics</span>
+        <span class="personal-fact-detail">National competition bronze</span>
+      </li>
+      <li>
+        <span class="personal-fact-title">Contemporary dance</span>
+      </li>
+      <li>
+        <span class="personal-fact-title">Skydiving</span>
+        <span class="personal-fact-detail">World’s highest tandem skydive · 18,000 feet</span>
+      </li>
+    </ul>
+    <p class="personal-extra">Also: calligraphy and Zumba.</p>
+  </aside>
 </section>
 
-<section class="fun-facts-section site-shell" aria-labelledby="fun-facts-title">
+<section class="experience-section site-shell" aria-labelledby="experience-title">
   <div class="section-heading">
-    <p class="eyebrow">The fun facts</p>
-    <h2 id="fun-facts-title">A life outside<br>the résumé.</h2>
+    <p class="eyebrow">Professional focus</p>
+    <h2 id="experience-title">Three connected fields.</h2>
   </div>
-  <div class="fun-fact-grid">
-    <article class="fun-fact">
-      <h3>Gymnastics</h3>
-      <p>Bronze medal at a national competition.</p>
+
+  <div class="focus-grid">
+    <article class="focus-area">
+      <p class="focus-index">01 · Strategy</p>
+      <h3>Consumer technology</h3>
+      <p>Consumer tech has been a recurring focus in my strategy client work.</p>
     </article>
-    <article class="fun-fact">
-      <h3>18,000 feet</h3>
-      <p>The world’s highest tandem skydive.</p>
+    <article class="focus-area">
+      <p class="focus-index">02 · Investing</p>
+      <h3>Private equity and venture capital</h3>
+      <p>Experience across private equity and venture investing.</p>
     </article>
-    <article class="fun-fact">
-      <h3>Contemporary dance</h3>
-      <p>Also into calligraphy and Zumba.</p>
+    <article class="focus-area">
+      <p class="focus-index">03 · Finance</p>
+      <h3>Investment banking</h3>
+      <p>Experience in investment banking.</p>
     </article>
   </div>
-</section>
-
-<section class="work-profile-section site-shell" aria-labelledby="work-profile-title">
-  <p class="eyebrow">Work profile</p>
-  <h2 id="work-profile-title">Strategy, investing,<br><span class="accent-text">and technology.</span></h2>
-  <p>My work has spanned consulting, private equity, venture capital, and investment banking. I enjoy connecting complex ideas and finding a clear next step.</p>
-  <a class="text-link" href="{{ '/experience/' | relative_url }}">See the companies I’ve worked with <span aria-hidden="true">↗</span></a>
-</section>
-
-<section class="home-note site-shell" aria-labelledby="home-note-title">
-  <p class="eyebrow">Beyond work</p>
-  <h2 id="home-note-title">People, place,<br><span class="accent-text">and possibility.</span></h2>
-  <p>I’ve supported community water access and helped local artisans bring traditional craft to new markets.</p>
-  <a class="text-link" href="{{ '/about/' | relative_url }}">A little more about me <span aria-hidden="true">↗</span></a>
-</section>
-
-<section class="closing-cta site-shell" aria-labelledby="closing-title">
-  <p class="eyebrow">Have a good question?</p>
-  <h2 id="closing-title">Let’s connect.</h2>
-  <a class="button button-light" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
 </section>

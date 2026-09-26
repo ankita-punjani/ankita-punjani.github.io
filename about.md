@@ -6,28 +6,28 @@ permalink: /about/
 
 <article class="page-shell">
   <header class="page-intro">
-    <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> A little more about me</p>
-    <h1>Business mind.<br><span class="accent-text">Creative energy.</span></h1>
-    <p class="page-lede">I’m an MBA candidate at UC Berkeley Haas, interested in how strategy, technology, and people shape what comes next.</p>
+    <p class="eyebrow">About</p>
+    <h1>Business, technology,<br><span class="accent-text">and a creative life.</span></h1>
+    <p class="page-lede">I’m an MBA candidate at UC Berkeley Haas, with interests spanning consumer technology, investing, leadership, and creative pursuits.</p>
   </header>
 
   <section class="content-section" aria-labelledby="path-title">
-    <h2 id="path-title">A little about my path</h2>
-    <p>Before Haas, I built experience across consulting and investing. At school, I serve as Vice President of Academics for the Haas Consulting Club and as a Berkeley Board Fellow. I also support deferred MBA admissions as a Graduate Student Assistant.</p>
+    <h2 id="path-title">At Haas</h2>
+    <p>I serve as Vice President of Academics for the Haas Consulting Club and as a Berkeley Board Fellow. I also support deferred MBA admissions as a Graduate Student Assistant.</p>
   </section>
 
   <section class="content-section" aria-labelledby="education-title">
     <h2 id="education-title">Education</h2>
-    <div class="education-grid">
-      <article class="education-card">
-        <p class="detail-overline">MBA · Class of 2027</p>
-        <h3>UC Berkeley Haas School of Business</h3>
-      </article>
-      <article class="education-card">
-        <p class="detail-overline">B.Com. (Honors) · 2018-2021</p>
-        <h3>Shri Ram College of Commerce, University of Delhi</h3>
-      </article>
-    </div>
+    <ul class="education-list">
+      <li>
+        <span class="education-degree">MBA · Class of 2027</span>
+        <span class="education-school">UC Berkeley Haas School of Business</span>
+      </li>
+      <li>
+        <span class="education-degree">B.Com. (Honors) · 2018-2021</span>
+        <span class="education-school">Shri Ram College of Commerce, University of Delhi</span>
+      </li>
+    </ul>
   </section>
 
   <section class="content-section" aria-labelledby="community-title">

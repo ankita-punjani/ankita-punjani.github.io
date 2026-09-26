@@ -6,9 +6,9 @@ permalink: /contact/
 
 <article class="page-shell contact-page">
   <header class="page-intro">
-    <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Say hello</p>
-    <h1>Good work starts<br>with a <span class="accent-text">conversation.</span></h1>
-    <p class="page-lede">For a thoughtful question, a shared interest in investing and technology, or a new opportunity, feel free to reach out.</p>
+    <p class="eyebrow">Contact</p>
+    <h1>Let’s talk.</h1>
+    <p class="page-lede">For a thoughtful question, a shared interest in consumer technology and investing, or a new opportunity, feel free to reach out.</p>
   </header>
 
   <section class="contact-card" aria-labelledby="email-title">
