@@ -7,7 +7,7 @@ A static Jekyll portfolio for the GitHub Pages user site `ankita-punjani.github.
 - Edit `index.md`, `about.md`, `experience.md`, and `contact.md` to update page content.
 - Edit `_data/navigation.yml` to change the primary navigation.
 - Edit `_config.yml` for site-wide metadata and `assets/css/site.css` for the visual design.
-- Keep experience, metrics, titles, and dates grounded in information Ankita has supplied. The Harlem Capital entry is intentionally marked as a placeholder until its role details are provided.
+- The public Work Profile lists company names only. Keep job titles, dates, projects, and results for the résumé unless Ankita asks to publish them.
 - The email link on the Contact page is public. The phone number from the résumé is not published.
 
 ## Preview locally

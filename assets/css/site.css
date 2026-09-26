@@ -6,7 +6,6 @@
   --muted: #555750;
   --line: #dedbd2;
   --accent: #a23522;
-  --accent-soft: #f2e3dc;
   --focus: #233ea7;
   --shell: 1080px;
   --reading: 760px;
@@ -219,31 +218,6 @@ a:focus-visible {
   line-height: 1.6;
 }
 
-.hero-details {
-  display: grid;
-  max-width: 760px;
-  grid-template-columns: 1fr;
-  gap: 0.8rem;
-  margin-top: 2rem;
-  padding-top: 1.2rem;
-  border-top: 1px solid var(--line);
-}
-
-.hero-details p {
-  margin: 0;
-  font-size: 0.93rem;
-}
-
-.detail-label {
-  display: block;
-  margin-bottom: 0.15rem;
-  color: var(--muted);
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -276,6 +250,17 @@ a:focus-visible {
   background: #7f2a1c;
 }
 
+.button-secondary {
+  border-color: var(--line);
+  color: var(--ink);
+  background: var(--surface);
+}
+
+.button-secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .button-light {
   color: var(--ink);
   background: var(--surface);
@@ -293,19 +278,13 @@ a:focus-visible {
   text-decoration-thickness: 2px;
 }
 
-.impact-section {
-  display: block;
-  padding-top: 4.6rem;
-  padding-bottom: 5rem;
-  border-top: 1px solid var(--line);
-}
-
 .section-heading {
   margin-bottom: 2rem;
 }
 
 .section-heading h2,
 .home-note h2,
+.work-profile-section h2,
 .closing-cta h2 {
   margin: 0;
   font-size: clamp(2rem, 4.8vw, 3.8rem);
@@ -314,55 +293,54 @@ a:focus-visible {
   line-height: 1.04;
 }
 
-.impact-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.impact-item {
-  display: block;
-  padding: 1.25rem 0;
+.fun-facts-section {
+  padding: 4.2rem 0 5rem;
   border-top: 1px solid var(--line);
 }
 
-.impact-item:first-child {
-  border-top: 0;
-  padding-top: 0;
+.fun-fact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
 }
 
-.impact-number,
-.experience-index {
-  color: var(--accent);
-  font-size: 0.73rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
+.fun-fact {
+  min-height: 10rem;
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  background: var(--surface);
 }
 
-.impact-number {
-  display: block;
-  margin-bottom: 0.35rem;
-}
-
-.impact-value {
-  margin: -0.45rem 0 0;
-  font-size: clamp(2.2rem, 5vw, 3.7rem);
-  font-weight: 760;
-  letter-spacing: -0.075em;
-  line-height: 1.1;
-}
-
-.impact-description {
-  max-width: 480px;
-  margin: 0.3rem 0 0.35rem;
-  color: #343630;
-}
-
-.impact-source {
+.fun-fact h3 {
   margin: 0;
+  font-size: clamp(1.35rem, 2.5vw, 1.8rem);
+  font-weight: 740;
+  letter-spacing: -0.05em;
+  line-height: 1.15;
+}
+
+.fun-fact p {
+  margin: 0.7rem 0 0;
   color: var(--muted);
-  font-size: 0.78rem;
-  font-weight: 650;
+  font-size: 0.93rem;
+}
+
+.work-profile-section {
+  padding: 4.5rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.work-profile-section > p:not(.eyebrow) {
+  max-width: 660px;
+  margin: 1.3rem 0 1rem;
+  color: #343630;
+  font-size: 1.08rem;
+}
+
+.work-profile-section .text-link {
+  display: inline-block;
+  margin-top: 0.25rem;
 }
 
 .home-note {
@@ -439,15 +417,6 @@ a:focus-visible {
   margin-bottom: 0;
 }
 
-.detail-block {
-  padding: 1.25rem 0;
-  border-top: 1px solid var(--line);
-}
-
-.detail-block:first-of-type {
-  border-top: 0;
-}
-
 .detail-overline {
   margin-bottom: 0.2rem !important;
   color: var(--accent);
@@ -457,17 +426,25 @@ a:focus-visible {
   text-transform: uppercase;
 }
 
-.detail-block h3 {
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.education-card {
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  background: var(--surface);
+}
+
+.education-card h3 {
   margin: 0;
-  font-size: 1.16rem;
+  font-size: 1.13rem;
   font-weight: 720;
   letter-spacing: -0.025em;
   line-height: 1.4;
-}
-
-.detail-block > p:last-child {
-  margin-top: 0.35rem;
-  color: #343630;
 }
 
 .plain-list {
@@ -483,86 +460,26 @@ a:focus-visible {
   padding-top: 2rem;
 }
 
-.experience-list {
+.company-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
   margin: 0;
   padding: 0;
-  border-top: 1px solid var(--line);
   list-style: none;
 }
 
-.experience-entry {
-  display: block;
-  padding: 2.3rem 0 2.6rem;
-  border-bottom: 1px solid var(--line);
-}
-
-.experience-meta p {
-  margin: 0;
-}
-
-.experience-meta {
+.company-list li {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.2rem 0.65rem;
-}
-
-.experience-content {
-  margin-top: 0.75rem;
-}
-
-.experience-dates {
-  font-size: 0.88rem;
-  font-weight: 750;
-}
-
-.experience-location {
-  margin-top: 0.25rem !important;
-  color: var(--muted);
-  font-size: 0.8rem;
-}
-
-.experience-index {
-  margin: 0 0 0.45rem;
-  text-transform: uppercase;
-}
-
-.experience-content h2 {
-  margin: 0;
-  font-size: clamp(1.5rem, 4vw, 2.35rem);
-  font-weight: 740;
-  letter-spacing: -0.06em;
-  line-height: 1.14;
-}
-
-.experience-title {
-  margin: 0.3rem 0 1rem;
-  color: var(--muted);
-  font-size: 0.93rem;
-  font-weight: 650;
-}
-
-.experience-content ul {
-  margin: 0;
-  padding-left: 1.15rem;
-}
-
-.experience-content li {
-  padding: 0.32rem 0 0.32rem 0.15rem;
-}
-
-.experience-note {
-  margin: 1rem 0 0;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.placeholder-note {
-  padding: 0.8rem 1rem;
-  margin: 1rem 0 0;
-  border-left: 3px solid var(--accent);
-  color: #454640;
-  background: var(--accent-soft);
-  font-size: 0.9rem;
+  min-height: 4rem;
+  align-items: center;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.25rem;
+  background: var(--surface);
+  font-size: 1.04rem;
+  font-weight: 720;
+  letter-spacing: -0.02em;
 }
 
 .contact-page {
@@ -684,37 +601,19 @@ a:focus-visible {
     font-size: clamp(2.8rem, 13vw, 4.2rem);
   }
 
-  .hero-details {
-    grid-template-columns: 1fr;
-    gap: 0.9rem;
-  }
-
   .hero-actions {
     align-items: flex-start;
     flex-direction: column;
   }
 
-  .impact-section {
-    padding-top: 3.6rem;
+  .fun-fact-grid,
+  .education-grid,
+  .company-list {
+    grid-template-columns: 1fr;
   }
 
-  .impact-item:first-child {
-    padding-top: 1.1rem;
-    border-top: 1px solid var(--line);
-  }
-
-  .experience-entry {
-    padding: 1.8rem 0 2rem;
-  }
-
-  .experience-location {
-    margin-top: 0 !important;
-  }
-
-  .experience-location::before {
-    content: "/";
-    margin-right: 0.65rem;
-    color: var(--accent);
+  .fun-fact {
+    min-height: auto;
   }
 
   .footer-inner {

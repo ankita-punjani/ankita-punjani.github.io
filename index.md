@@ -6,8 +6,8 @@ permalink: /
 
 <section class="hero site-shell" aria-labelledby="home-title">
   <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Gymnastics <span aria-hidden="true">/</span> Dance <span aria-hidden="true">/</span> 18,000 feet</p>
-  <h1 id="home-title">Curious about business.<br><span class="accent-text">Always in motion.</span></h1>
-  <p class="hero-copy">I’m Ankita, an MBA candidate at UC Berkeley Haas. Away from strategy and investing, I’m a contemporary dancer, a national gymnastics bronze medalist, and the person who took a tandem skydive from 18,000 feet.</p>
+  <h1 id="home-title">A curious mind.<br><span class="accent-text">A life in motion.</span></h1>
+  <p class="hero-copy">I’m Ankita, an MBA candidate at UC Berkeley Haas, curious about strategy, investing, and technology.</p>
   <div class="hero-actions">
     <a class="button button-primary" href="{{ '/experience/' | relative_url }}">My work profile <span aria-hidden="true">↗</span></a>
     <a class="button button-secondary" href="https://www.linkedin.com/in/ankita-punjani" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
@@ -26,7 +26,7 @@ permalink: /
     </article>
     <article class="fun-fact">
       <h3>18,000 feet</h3>
-      <p>A tandem skydive I’ll never forget.</p>
+      <p>The world’s highest tandem skydive.</p>
     </article>
     <article class="fun-fact">
       <h3>Contemporary dance</h3>
