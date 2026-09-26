@@ -1,0 +1,36 @@
+title: Ankita Punjani
+description: Strategy, investing, and technology. The personal portfolio of Ankita Punjani, MBA candidate at UC Berkeley Haas.
+url: "https://ankita-punjani.github.io"
+baseurl: ""
+lang: en-US
+author:
+  name: Ankita Punjani
+  email: ankita_punjani@berkeley.edu
+  url: "https://ankita-punjani.github.io"
+social:
+  name: Ankita Punjani
+  links:
+    - "https://www.linkedin.com/in/ankita-punjani"
+    - "https://github.com/ankita-punjani"
+logo: /assets/images/favicon.svg
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - PLAN.md
+  - replit.md
+  - .replit
+  - .replitignore
+  - .bundle
+  - vendor

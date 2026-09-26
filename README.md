@@ -1,0 +1,36 @@
+# Ankita Punjani - personal portfolio
+
+A static Jekyll portfolio for the GitHub Pages user site `ankita-punjani.github.io`. The site is built from Markdown, Jekyll layouts, HTML, and CSS. It has no contact-form backend, trackers, external fonts, or client-side JavaScript.
+
+## Update the site
+
+- Edit `index.md`, `about.md`, `experience.md`, and `contact.md` to update page content.
+- Edit `_data/navigation.yml` to change the primary navigation.
+- Edit `_config.yml` for site-wide metadata and `assets/css/site.css` for the visual design.
+- Keep experience, metrics, titles, and dates grounded in information Ankita has supplied. The Harlem Capital entry is intentionally marked as a placeholder until its role details are provided.
+- The email link on the Contact page is public. The phone number from the résumé is not published.
+
+## Preview locally
+
+Install Ruby and Bundler, then run:
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
+
+Open `http://127.0.0.1:4000`. Jekyll rebuilds the site when its source files change.
+
+## Publish with GitHub Pages
+
+1. Put these files at the root of a GitHub repository named `ankita-punjani.github.io`.
+2. In the repository's **Settings > Pages**, select **Deploy from a branch**.
+3. Choose branch `main` and folder `/(root)`, then save.
+
+GitHub Pages builds this Jekyll site directly. No separate build action or manual build step is required. `_config.yml` sets the user-site URL and an empty `baseurl`.
+
+## Run Lighthouse
+
+With the local preview or published site open in Chrome, open DevTools, select **Lighthouse**, choose **Performance**, **Accessibility**, **Best practices**, and **SEO**, then run the audit. The target is 90 or higher in each category.
+
+The site uses a system font stack and local assets to keep page weight low. Re-run the audit after content or design changes.

@@ -1,0 +1,8 @@
+- label: Home
+  url: /
+- label: About
+  url: /about/
+- label: Experience
+  url: /experience/
+- label: Contact
+  url: /contact/
