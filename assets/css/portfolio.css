@@ -734,7 +734,7 @@ a:focus-visible {
 }
 
 .company-name {
-  font-size: 1.04rem;
+  font-size: 1.12rem;
   font-weight: 750;
   letter-spacing: -0.025em;
   line-height: 1.35;
@@ -742,7 +742,7 @@ a:focus-visible {
 }
 
 .company-item-featured .company-name {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .company-meta {
@@ -1154,6 +1154,18 @@ body {
   color: #554239;
   font-size: clamp(1rem, 1.35vw, 1.13rem);
   line-height: 1.75;
+}
+
+.brand-link {
+  color: inherit;
+  font-weight: 700;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.brand-link:hover {
+  color: var(--accent-strong);
 }
 
 .hero-portrait {

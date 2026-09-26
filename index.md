@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Meet Ankita Punjani, a Berkeley Haas MBA candidate working part-time at Harlem Capital, with prior investment banking and private-equity consulting experience.
+description: Meet Ankita Punjani, a Berkeley Haas MBA candidate and part-time Harlem Capital VC intern interested in building with technology and consumer tech.
 permalink: /
 ---
 
@@ -9,7 +9,7 @@ permalink: /
     <div class="hero-main">
       <p class="eyebrow">Berkeley Haas MBA candidate · Class of ’27</p>
       <h1 id="home-title">I follow the<br><span class="accent-text">interesting question.</span></h1>
-      <p class="hero-copy">I’m a Berkeley Haas MBA candidate (Class of 2027), currently working part-time at Harlem Capital, a leading early-stage venture capital firm. Before Haas, I worked in investment banking at JPMorgan Chase and private-equity consulting at Bain and Strategy&amp;. I’m especially interested in technology projects and consumer tech.</p>
+      <p class="hero-copy">Hi there, I’m Ankita Punjani, a Berkeley Haas MBA candidate and part-time VC intern at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Harlem Capital</a>. I build things, experiment with technology, and have worked with technology clients. Before Haas, I worked in investment banking at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">JPMorgan Chase</a> and private-equity consulting at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Bain</a> and <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Strategy&amp;</a>. I’m especially interested in consumer tech: what makes everyday products stick.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/experience/' | relative_url }}">Explore my work <span aria-hidden="true">↗</span></a>
         <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
@@ -42,7 +42,7 @@ permalink: /
       <li>
         <span class="hobby-symbol" aria-hidden="true">03</span>
         <strong>Skydiving</strong>
-        <span>Tandem. 18,000 feet. A very decisive way to get some perspective.</span>
+        <span>18,000 feet up on the world’s highest tandem skydive. Perspective: acquired.</span>
       </li>
       <li>
         <span class="hobby-symbol" aria-hidden="true">04</span>
