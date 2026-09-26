@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: Contact Ankita Punjani by email, LinkedIn, or GitHub.
+description: Contact Ankita Punjani by email, LinkedIn, GitHub, or X.
 permalink: /contact/
 ---
 
@@ -22,6 +22,7 @@ permalink: /contact/
     <ul class="social-list">
       <li><a href="https://www.linkedin.com/in/ankita-punjani" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
       <li><a href="https://github.com/ankita-punjani" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://x.com/i_ankitap" target="_blank" rel="noopener noreferrer">X / Twitter <span aria-hidden="true">↗</span></a></li>
     </ul>
   </section>
 </article>

@@ -25,7 +25,10 @@ permalink: /about/
       </li>
       <li>
         <span class="education-degree">B.Com. (Honors) · 2018-2021</span>
-        <span class="education-school">Shri Ram College of Commerce, University of Delhi</span>
+        <span>
+          <span class="education-school">Shri Ram College of Commerce, University of Delhi</span>
+          <span class="education-honour"><a href="https://bestcolleges.indiatoday.in/best-colleges-of-india-2026/the-unending-quest-for-excellence-india-today-mdra-best-colleges-survey-2026-10218" target="_blank" rel="noopener noreferrer">Ranked #1 in Commerce by India Today · 2026 <span aria-hidden="true">↗</span></a></span>
+        </span>
       </li>
     </ul>
   </section>

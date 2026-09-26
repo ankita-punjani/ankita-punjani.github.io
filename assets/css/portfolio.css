@@ -152,15 +152,41 @@ a:focus-visible {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(15rem, 0.65fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.8fr);
   align-items: center;
   gap: clamp(2.5rem, 7vw, 6rem);
-  padding-top: clamp(4rem, 8vw, 6.5rem);
-  padding-bottom: clamp(3.5rem, 7vw, 5.5rem);
+  padding-top: clamp(3.5rem, 6vw, 4.75rem);
+  padding-bottom: clamp(2.5rem, 5vw, 3.75rem);
 }
 
 .hero-main {
   max-width: 700px;
+}
+
+.hero-portrait {
+  width: 100%;
+  max-width: 360px;
+  justify-self: end;
+  margin: 0;
+}
+
+.hero-portrait img {
+  display: block;
+  width: 100%;
+  height: clamp(26rem, 35vw, 30rem);
+  object-fit: cover;
+  object-position: center 34%;
+}
+
+.hero-portrait figcaption {
+  margin-top: 0.65rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.hero-portrait figcaption span {
+  padding-inline: 0.15rem;
+  color: var(--accent);
 }
 
 .hero h1,
@@ -226,49 +252,45 @@ a:focus-visible {
   text-decoration-thickness: 1px;
 }
 
-.personal-note {
-  max-width: 350px;
-  padding: 0.4rem 0 0.4rem 1.5rem;
-  border-left: 2px solid var(--accent);
+.personal-strip {
+  display: grid;
+  grid-template-columns: minmax(9rem, 0.45fr) minmax(0, 1.55fr);
+  align-items: start;
+  gap: 1.4rem;
+  padding-block: 1.2rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
-.personal-note .eyebrow {
-  margin-bottom: 0.65rem;
+.personal-strip > .eyebrow {
+  margin: 0;
+  padding-top: 0.15rem;
 }
 
-.personal-facts {
+.personal-highlights {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.personal-facts li {
-  padding: 0.75rem 0;
-  border-top: 1px solid var(--line);
-}
-
-.personal-fact-title,
-.personal-fact-detail {
+.personal-highlights strong,
+.personal-highlights span {
   display: block;
 }
 
-.personal-fact-title {
-  font-size: 0.91rem;
-  font-weight: 700;
+.personal-highlights strong {
+  font-size: 0.81rem;
+  line-height: 1.4;
+}
+
+.personal-highlights span {
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.75rem;
   line-height: 1.45;
-}
-
-.personal-fact-detail {
-  margin-top: 0.12rem;
-  color: var(--muted);
-  font-size: 0.82rem;
-  line-height: 1.55;
-}
-
-.personal-extra {
-  margin: 0.8rem 0 0;
-  color: var(--muted);
-  font-size: 0.82rem;
 }
 
 .experience-section {
@@ -326,11 +348,86 @@ a:focus-visible {
   line-height: 1.4;
 }
 
+.focus-area .focus-question {
+  margin: 0 0 0.7rem;
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 1.16rem;
+  letter-spacing: -0.025em;
+  line-height: 1.4;
+}
+
 .focus-area p:last-child {
   margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
   line-height: 1.65;
+}
+
+.moments-section {
+  padding: 3.25rem 0 4.8rem;
+  border-top: 1px solid var(--line);
+}
+
+.moments-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: clamp(1.5rem, 4vw, 3rem);
+}
+
+.moment-card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1.1rem;
+  min-width: 0;
+}
+
+.moment-photo {
+  margin: 0;
+}
+
+.moment-photo img {
+  display: block;
+  width: 100%;
+  height: clamp(15rem, 28vw, 23rem);
+  object-fit: cover;
+}
+
+.moment-gradient .moment-photo img {
+  object-position: center 36%;
+}
+
+.moment-photo figcaption {
+  margin-top: 0.55rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.moment-copy .eyebrow {
+  margin-bottom: 0.45rem;
+}
+
+.moment-copy h3 {
+  margin: 0 0 0.55rem;
+  font-family: var(--display);
+  font-size: clamp(1.35rem, 2.3vw, 1.8rem);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1.25;
+}
+
+.moment-copy p:last-child {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.moment-copy a {
+  color: var(--ink);
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1px;
 }
 
 .page-intro {
@@ -415,6 +512,18 @@ a:focus-visible {
 
 .education-school {
   font-weight: 650;
+}
+
+.education-honour {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.education-honour a {
+  color: var(--accent-strong);
+  text-decoration-color: var(--accent);
 }
 
 .plain-list {
@@ -528,8 +637,19 @@ a:focus-visible {
     padding-bottom: 3.25rem;
   }
 
-  .personal-note {
-    max-width: none;
+  .hero-portrait {
+    max-width: 460px;
+    justify-self: start;
+  }
+
+  .personal-strip {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+
+  .personal-highlights {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem 1rem;
   }
 
   .section-heading {
@@ -540,6 +660,11 @@ a:focus-visible {
   .focus-grid {
     grid-template-columns: 1fr;
     gap: 1.4rem;
+  }
+
+  .moments-grid {
+    grid-template-columns: 1fr;
+    gap: 2.7rem;
   }
 
   .company-list {
