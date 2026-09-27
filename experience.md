@@ -27,7 +27,7 @@ permalink: /experience/
       </li>
       <li class="company-item">
         <a class="company-link" href="https://www.strategyand.pwc.com/" target="_blank" rel="noopener noreferrer">
-          <span class="company-logo-frame"><img class="company-logo company-logo-icon" src="{{ '/assets/images/companies/strategy-and.ico' | relative_url }}" alt="" width="36" height="36" loading="lazy"></span>
+          <span class="company-logo-frame" aria-hidden="true"><span class="company-logo-wordmark">Strategy<span>&amp;</span></span></span>
           <span class="company-copy">
             <strong class="company-name">Strategy&amp; (PwC)</strong>
             <span class="company-meta">Private-equity consulting</span>
