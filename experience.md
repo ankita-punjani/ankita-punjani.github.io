@@ -24,6 +24,10 @@ permalink: /experience/
           <span class="company-arrow" aria-hidden="true">↗</span>
         </a>
         <p class="company-summary">I work across sourcing, portfolio calls, and deal calls in a holistic, high-ownership role.</p>
+        <p class="company-resources">
+          <a href="https://harlem.capital/team/ankita-punjani" target="_blank" rel="noopener noreferrer">Harlem Capital profile <span aria-hidden="true">↗</span></a>
+          <a href="https://harlem.capital/our-27th-class-meet-harlem-capitals-fall-2026-interns/" target="_blank" rel="noopener noreferrer">Fall 2026 intern feature <span aria-hidden="true">↗</span></a>
+        </p>
       </li>
       <li class="company-item">
         <a class="company-link" href="https://www.strategyand.pwc.com/" target="_blank" rel="noopener noreferrer">

@@ -783,6 +783,22 @@ a:focus-visible {
   line-height: 1.6;
 }
 
+.company-resources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.2rem;
+  margin: 0.65rem 0 0 8.45rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.company-resources a {
+  color: var(--accent-strong);
+  text-decoration-color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
 .education-list {
   margin: 0;
   padding: 0;
@@ -1017,6 +1033,10 @@ a:focus-visible {
   }
 
   .company-summary {
+    margin-left: 6.35rem;
+  }
+
+  .company-resources {
     margin-left: 6.35rem;
   }
 
@@ -1623,7 +1643,8 @@ body {
     max-width: min(100%, 310px);
   }
 
-  .company-summary {
+  .company-summary,
+  .company-resources {
     margin-left: 0;
   }
 }
