@@ -16,7 +16,7 @@ permalink: /experience/
     <ul class="company-list">
       <li class="company-item company-item-featured">
         <a class="company-link" href="https://harlem.capital/" target="_blank" rel="noopener noreferrer">
-          <span class="company-logo-frame company-logo-frame-harlem"><img class="company-logo" src="{{ '/assets/images/companies/harlem-capital.svg' | relative_url }}" alt="" width="200" height="72" loading="lazy"></span>
+          <span class="company-logo-frame company-logo-frame-dark"><img class="company-logo" src="{{ '/assets/images/companies/harlem-capital.svg' | relative_url }}" alt="" width="200" height="72" loading="lazy"></span>
           <span class="company-copy">
             <strong class="company-name">Harlem Capital</strong>
             <span class="company-meta">Part-time · Fall 2026 Venture Capital Intern</span>
@@ -31,17 +31,17 @@ permalink: /experience/
       </li>
       <li class="company-item">
         <a class="company-link" href="https://www.strategyand.pwc.com/" target="_blank" rel="noopener noreferrer">
-          <span class="company-logo-frame" aria-hidden="true"><span class="company-logo-wordmark">Strategy<span>&amp;</span></span></span>
+          <span class="company-logo-frame"><img class="company-logo company-logo-icon" src="{{ '/assets/images/companies/strategy-and.ico' | relative_url }}" alt="" width="36" height="36" loading="lazy"></span>
           <span class="company-copy">
             <strong class="company-name">Strategy&amp; (PwC)</strong>
-            <span class="company-meta">Private-equity consulting</span>
+            <span class="company-meta">Private-equity consulting for TMT (technology)</span>
           </span>
           <span class="company-arrow" aria-hidden="true">↗</span>
         </a>
       </li>
       <li class="company-item">
         <a class="company-link" href="https://www.stellarisvp.com/" target="_blank" rel="noopener noreferrer">
-          <span class="company-logo-frame company-logo-frame-stellaris"><img class="company-logo" src="{{ '/assets/images/companies/stellaris-vp.png' | relative_url }}" alt="" width="200" height="72" loading="lazy"></span>
+          <span class="company-logo-frame company-logo-frame-dark"><img class="company-logo" src="{{ '/assets/images/companies/stellaris-vp.png' | relative_url }}" alt="" width="200" height="72" loading="lazy"></span>
           <span class="company-copy">
             <strong class="company-name">Stellaris Venture Partners</strong>
             <span class="company-meta">Pre-MBA Investments Intern · Chief of Staff</span>

@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Meet Ankita Punjani, a Berkeley Haas MBA candidate and part-time Harlem Capital VC intern interested in building with technology and consumer tech.
+description: Meet Ankita Punjani, a Berkeley Haas MBA candidate and Harlem Capital VC intern exploring technology through execution, strategy, and investing, with a focus on consumer tech.
 permalink: /
 ---
 
@@ -9,7 +9,7 @@ permalink: /
     <div class="hero-main">
       <p class="eyebrow">Berkeley Haas MBA candidate · Class of ’27</p>
       <h1 id="home-title">I follow the<br><span class="accent-text">interesting question.</span></h1>
-      <p class="hero-copy">Hi there, I’m Ankita Punjani, a Berkeley Haas MBA candidate and part-time VC intern at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Harlem Capital</a>. I build things, experiment with technology, and have worked with technology clients. Before Haas, I worked in investment banking at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">JPMorgan Chase</a> and private-equity consulting at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Bain</a> and <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Strategy&amp;</a>. I’m especially interested in consumer tech: what makes everyday products stick.</p>
+      <p class="hero-copy">Hi there, I’m Ankita Punjani, a Berkeley Haas MBA candidate and part-time VC intern at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Harlem Capital</a>. I’m increasingly focused on understanding technology from every side—from building and execution to strategy and investing. Consumer tech is a particular passion, especially what makes everyday products stick, but I’m curious about technology more broadly. Before Haas, I worked in investment banking at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">JPMorgan Chase</a> and private-equity consulting at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Bain</a> and <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Strategy&amp;</a>.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/experience/' | relative_url }}">Explore my work <span aria-hidden="true">↗</span></a>
         <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
@@ -109,10 +109,10 @@ permalink: /
 <section class="moments-section" aria-labelledby="moments-title">
   <div class="site-shell">
     <header class="moments-intro">
-      <p class="eyebrow">Beyond the bullet points / 01-04</p>
+      <p class="eyebrow">Beyond the bullet points / 01-05</p>
       <div>
         <h2 id="moments-title">The best ideas<br>leave the page.</h2>
-        <p class="moments-lede">From Berkeley to Fremont: people and places that bring technology, AI, and big ideas into focus.</p>
+        <p class="moments-lede">From Berkeley to Lithuania and Fremont: people and places where technology, AI, and new markets come into focus.</p>
       </div>
     </header>
 
@@ -162,6 +162,21 @@ permalink: /
           <p class="eyebrow">A recent conversation</p>
           <h3>From Facebook’s first intern to AI investing.</h3>
           <p>I recently met <a href="https://www.gradient.com/team/darian-shirazi/" target="_blank" rel="noopener noreferrer">Darian Shirazi</a>, a General Partner at Gradient Ventures, the <a href="https://blog.google/technology/ai/introducing-gradient-ventures/" target="_blank" rel="noopener noreferrer">AI-focused fund launched by Google</a>. He was <a href="https://www.nbcnews.com/id/wbna52825564" target="_blank" rel="noopener noreferrer">Facebook’s first intern</a> and later one of its first engineers, reporting to Mark Zuckerberg.</p>
+        </div>
+      </article>
+
+      <article class="story story-ibd" id="ibd-lithuania" aria-labelledby="ibd-lithuania-title">
+        <figure class="story-media">
+          <img src="{{ '/assets/images/lithuania-ibd-collage.webp' | relative_url }}" alt="A collage of city views, group outings, and a team dinner from Ankita’s Berkeley Haas International Business Development trip to Lithuania." width="1552" height="572" loading="lazy">
+          <figcaption>05 / Berkeley Haas IBD · Lithuania · International Business Development</figcaption>
+        </figure>
+        <div class="story-copy story-ibd-copy">
+          <p class="eyebrow">International Business Development at Haas</p>
+          <h3 id="ibd-lithuania-title">Taking European AI to the U.S. market.</h3>
+          <p class="ibd-intro">As part of Berkeley Haas’s International Business Development (IBD) program, I traveled to Lithuania to work with Europe-based AI lab AI Data Foundry.</p>
+          <ul class="story-highlights">
+            <li>Devised a U.S. market-entry strategy for European AI Data Foundry through expert calls and market research across Silicon Valley tech labs.</li>
+          </ul>
         </div>
       </article>
     </div>
