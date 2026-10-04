@@ -93,8 +93,16 @@ permalink: /about/
   </section>
 
   <section class="content-section" aria-labelledby="leadership-title">
-    <h2 id="leadership-title">Leadership and community</h2>
-    <p>At Haas, I serve as Vice President of Academics for the Haas Consulting Club and support deferred MBA admissions as a Graduate Student Assistant.</p>
+    <h2 id="leadership-title">Leadership</h2>
+    <ul class="plain-list">
+      <li>VP Academics, Haas Consulting Club</li>
+      <li>Berkeley Board Fellow - served on the board of A Better Way</li>
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="community-title">
+    <h2 id="community-title">Campus and community</h2>
+    <p>At Haas, I also support deferred MBA admissions as a Graduate Student Assistant.</p>
     <p>I’ve supported community water access and helped local artisans bring traditional craft to new markets.</p>
   </section>
 
