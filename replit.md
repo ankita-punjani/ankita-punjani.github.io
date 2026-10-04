@@ -4,7 +4,7 @@ A static Jekyll portfolio for publication from the `main` branch and repository 
 
 ## Source files
 
-- `index.md`, `about.md`: Home and combined About Me page content
+- `index.md`, `projects.md`, `about.md`: Home, Projects, and combined About Me page content
 - `experience.md`, `contact.md`, and `_layouts/redirect.html`: preserve the previous URLs as redirects to About Me
 - `_layouts/default.html`, `_includes/`: shared page structure and navigation
 - `_data/navigation.yml`: the primary navigation links
@@ -19,5 +19,5 @@ Keep content factual to the supplied résumé and user-provided details. Do not 
 - Give company names stronger visual emphasis than role details, with small linked company logos. Keep About Me centered on the company list, approved work details, and contact information; do not add other company details, dates, projects, or metrics.
 - Keep education simple: schools, degrees, and class years only. Do not include GPA, class rank, or awards.
 - Include a direct LinkedIn link on the home page and About Me page.
-- Keep the primary navigation to Home and About Me. Combine the work profile and contact information on About Me. Keep the introduction and personal interests on Home, and place education, campus roles, and community details on About Me.
+- Keep the primary navigation to Home, Projects, and About Me. Combine the work profile and contact information on About Me. Keep the introduction and personal interests on Home, and link to Projects from Home. On Projects, use only AI side-project details Ankita provided and mark missing information with placeholders. Place education, campus roles, and community details on About Me.
 - Use a bold but elegant, readable layout with a clear type hierarchy. Avoid light-blue color schemes; prefer a warm, expressive palette. Make the hobbies section personal with short, playful captions grounded in user-provided facts. Use locally available fonts rather than external font downloads.
