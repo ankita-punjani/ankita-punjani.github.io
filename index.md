@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Ankita Punjani is a Berkeley Haas MBA candidate and Harlem Capital VC intern focused on venture capital, AI strategy, and technology.
+description: Meet Ankita Punjani, a Berkeley Haas MBA candidate and Harlem Capital VC intern building technology projects and exploring how AI can be applied.
 permalink: /
 ---
 
@@ -8,8 +8,7 @@ permalink: /
   <div class="hero-inner site-shell">
     <div class="hero-main">
       <p class="eyebrow">Berkeley Haas MBA candidate · Class of ’27</p>
-      <h1 id="home-title">Venture capital <span class="accent-text">meets AI.</span></h1>
-      <p class="hero-copy">After starting in investment banking at <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">JPMorgan Chase</a> and private-equity consulting at <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">Bain</a> and <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">Strategy&amp;</a>, I moved into venture capital. Now, as a Berkeley Haas MBA candidate and Harlem Capital VC intern, I’m focused on AI strategy and how technology can help companies grow.</p>
+      <h1 id="home-title">I follow the<br><span class="accent-text">interesting question.</span></h1>
       <p class="hero-story-links">
         <span>Jump to a story:</span>
         <a href="#ibd-lithuania">IBD in Lithuania</a>
@@ -17,6 +16,7 @@ permalink: /
         <a href="#gradient-ventures">Gradient Ventures</a>
         <a href="#women-leadership-vc">Women in VC</a>
       </p>
+      <p class="hero-copy">Hi there, I’m Ankita Punjani, a Berkeley Haas MBA candidate and part-time VC intern at <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">Harlem Capital</a>. I’m always working on technology projects - either building them or learning how they work and where they can be applied. This hands-on work complements my experience across investment banking, private equity, consulting, and venture capital, helping me grow in execution and deepen my understanding of how AI and other technologies can be applied. Before Haas, I worked in investment banking at <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">JPMorgan Chase</a> and private-equity consulting at <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">Bain</a> and <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">Strategy&amp;</a>.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/about/#contact' | relative_url }}">Contact me <span aria-hidden="true">↗</span></a>
         <a class="text-link" href="{{ '/projects/' | relative_url }}">Projects <span aria-hidden="true">↗</span></a>
