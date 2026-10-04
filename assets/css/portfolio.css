@@ -217,6 +217,35 @@ a:focus-visible {
   line-height: 1.03;
 }
 
+.hero-story-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.9rem;
+  margin: 1.25rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.hero-story-links span {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-story-links a {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+.hero-story-links a:hover {
+  color: var(--accent);
+}
+
 .page-intro h1 {
   font-size: clamp(2.65rem, 4.6vw, 3.9rem);
 }

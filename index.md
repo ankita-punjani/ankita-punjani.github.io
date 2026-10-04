@@ -9,6 +9,13 @@ permalink: /
     <div class="hero-main">
       <p class="eyebrow">Berkeley Haas MBA candidate · Class of ’27</p>
       <h1 id="home-title">I follow the<br><span class="accent-text">interesting question.</span></h1>
+      <p class="hero-story-links">
+        <span>Jump to a story:</span>
+        <a href="#ibd-lithuania">IBD in Lithuania</a>
+        <a href="#board-fellow">Board Fellow</a>
+        <a href="#gradient-ventures">Gradient Ventures</a>
+        <a href="#women-leadership-vc">Women in VC</a>
+      </p>
       <p class="hero-copy">Hi there, I’m Ankita Punjani, a Berkeley Haas MBA candidate and part-time VC intern at <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">Harlem Capital</a>. I’m always working on technology projects - either building them or learning how they work and where they can be applied. This hands-on work complements my experience across investment banking, private equity, consulting, and venture capital, helping me grow in both execution and in understanding and applying technology. Before Haas, I worked in investment banking at <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">JPMorgan Chase</a> and private-equity consulting at <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">Bain</a> and <a class="brand-link" href="{{ '/about/' | relative_url }}#companies-title">Strategy&amp;</a>.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/about/' | relative_url }}">About me <span aria-hidden="true">↗</span></a>
@@ -153,7 +160,7 @@ permalink: /
         </div>
       </article>
 
-      <article class="story story-portrait story-reverse">
+      <article class="story story-portrait story-reverse" id="gradient-ventures">
         <figure class="story-media">
           <img src="{{ '/assets/images/gradient-visit.webp' | relative_url }}" alt="Ankita with Darian Shirazi and others at Gradient Ventures." width="1350" height="1800" loading="lazy">
           <figcaption>04 / Gradient Ventures · AI investing, off the page</figcaption>
