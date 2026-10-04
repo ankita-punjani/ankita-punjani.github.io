@@ -1,7 +1,5 @@
 - label: Home
   url: /
-- label: About
-  url: /about/
 - label: Work Profile
   url: /experience/
 - label: Contact

@@ -1,13 +1,13 @@
 ---
 title: Work Profile
-description: Ankita Punjani’s experience at Harlem Capital, Strategy&, Stellaris Venture Partners, Bain & Company, and JPMorgan Chase.
+description: Ankita Punjani’s experience, education, leadership, and community work.
 permalink: /experience/
 ---
 
 <article class="page-shell">
   <header class="page-intro">
     <p class="eyebrow">Work profile</p>
-    <h1>Work across<br><span class="accent-text">tech and finance.</span></h1>
+    <h1>Tech, AI strategy<br><span class="accent-text">&amp; finance.</span></h1>
     <p class="page-lede">I’m interested in how companies grow and how technology changes everyday life. My experience spans early-stage venture capital, private-equity consulting, and investment banking.</p>
   </header>
 
@@ -16,7 +16,7 @@ permalink: /experience/
     <ul class="company-list">
       <li class="company-item company-item-featured">
         <a class="company-link" href="https://harlem.capital/" target="_blank" rel="noopener noreferrer">
-          <span class="company-logo-frame company-logo-frame-dark"><img class="company-logo" src="{{ '/assets/images/companies/harlem-capital.svg' | relative_url }}" alt="" width="200" height="72" loading="lazy"></span>
+          <span class="company-logo-frame"><img class="company-logo" src="{{ '/assets/images/companies/harlem-capital.png' | relative_url }}" alt="" width="315" height="86" loading="lazy"></span>
           <span class="company-copy">
             <strong class="company-name">Harlem Capital</strong>
             <span class="company-meta">Part-time · Fall 2026 Venture Capital Intern</span>
@@ -31,7 +31,7 @@ permalink: /experience/
       </li>
       <li class="company-item">
         <a class="company-link" href="https://www.strategyand.pwc.com/" target="_blank" rel="noopener noreferrer">
-          <span class="company-logo-frame"><img class="company-logo company-logo-icon" src="{{ '/assets/images/companies/strategy-and.ico' | relative_url }}" alt="" width="36" height="36" loading="lazy"></span>
+          <span class="company-logo-frame"><img class="company-logo" src="{{ '/assets/images/companies/strategy-and.png' | relative_url }}" alt="" width="596" height="220" loading="lazy"></span>
           <span class="company-copy">
             <strong class="company-name">Strategy&amp; (PwC)</strong>
             <span class="company-meta">Private-equity consulting for TMT (technology)</span>
@@ -70,6 +70,33 @@ permalink: /experience/
         </a>
       </li>
     </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="education-title">
+    <h2 id="education-title">Education and languages</h2>
+    <ul class="education-list">
+      <li>
+        <span class="education-degree">MBA · Class of 2027</span>
+        <span class="education-school">UC Berkeley Haas School of Business</span>
+      </li>
+      <li>
+        <span class="education-degree">B.Com. (Honors) · 2018-2021</span>
+        <span>
+          <span class="education-school">Shri Ram College of Commerce, University of Delhi</span>
+          <span class="education-honour"><a href="https://bestcolleges.indiatoday.in/best-colleges-of-india-2026/the-unending-quest-for-excellence-india-today-mdra-best-colleges-survey-2026-10218" target="_blank" rel="noopener noreferrer">Ranked #1 in Commerce by India Today · 2026 <span aria-hidden="true">↗</span></a></span>
+        </span>
+      </li>
+      <li>
+        <span class="education-degree">Languages</span>
+        <span class="education-school">English and German</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="content-section" aria-labelledby="leadership-title">
+    <h2 id="leadership-title">Leadership and community</h2>
+    <p>At Haas, I serve as Vice President of Academics for the Haas Consulting Club and support deferred MBA admissions as a Graduate Student Assistant.</p>
+    <p>I’ve supported community water access and helped local artisans bring traditional craft to new markets.</p>
   </section>
 
   <p class="page-end-link"><a class="button button-primary" href="https://www.linkedin.com/in/ankita-punjani" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a></p>

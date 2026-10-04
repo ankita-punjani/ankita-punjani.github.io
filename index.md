@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Meet Ankita Punjani, a Berkeley Haas MBA candidate and Harlem Capital VC intern exploring technology through execution, strategy, and investing, with a focus on consumer tech.
+description: Meet Ankita Punjani, a Berkeley Haas MBA candidate and Harlem Capital VC intern building technology projects and learning how technology works and can be applied.
 permalink: /
 ---
 
@@ -9,7 +9,7 @@ permalink: /
     <div class="hero-main">
       <p class="eyebrow">Berkeley Haas MBA candidate · Class of ’27</p>
       <h1 id="home-title">I follow the<br><span class="accent-text">interesting question.</span></h1>
-      <p class="hero-copy">Hi there, I’m Ankita Punjani, a Berkeley Haas MBA candidate and part-time VC intern at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Harlem Capital</a>. I’m increasingly focused on understanding technology from every side—from building and execution to strategy and investing. Consumer tech is a particular passion, especially what makes everyday products stick, but I’m curious about technology more broadly. Before Haas, I worked in investment banking at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">JPMorgan Chase</a> and private-equity consulting at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Bain</a> and <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Strategy&amp;</a>.</p>
+      <p class="hero-copy">Hi there, I’m Ankita Punjani, a Berkeley Haas MBA candidate and part-time VC intern at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Harlem Capital</a>. I’m always working on technology projects - either building them or learning how they work and where they can be applied. This hands-on work complements my experience across investment banking, private equity, consulting, and venture capital, helping me grow in both execution and in understanding and applying technology. Before Haas, I worked in investment banking at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">JPMorgan Chase</a> and private-equity consulting at <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Bain</a> and <a class="brand-link" href="{{ '/experience/' | relative_url }}#companies-title">Strategy&amp;</a>.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="{{ '/experience/' | relative_url }}">Explore my work <span aria-hidden="true">↗</span></a>
         <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">↗</span></a>
@@ -112,7 +112,7 @@ permalink: /
       <p class="eyebrow">Beyond the bullet points / 01-07</p>
       <div>
         <h2 id="moments-title">The best ideas<br>leave the page.</h2>
-        <p class="moments-lede">From Berkeley to Lithuania and Fremont: people and places where technology, AI, and new markets come into focus.</p>
+        <p class="moments-lede">From India to the Bay Area, Berkeley has expanded my horizons and deepened my curiosity about how technology works and what it can make possible.</p>
       </div>
     </header>
 
@@ -143,13 +143,13 @@ permalink: /
 
       <article class="story story-portrait">
         <figure class="story-media">
-          <img src="{{ '/assets/images/tesla-fremont-visit.webp' | relative_url }}" alt="Ankita outside Tesla’s Fremont factory, with the Tesla sign visible on the building." width="1200" height="1600" loading="lazy">
-          <figcaption>03 / Tesla factory tour · Fremont, California · Automation up close</figcaption>
+          <img src="{{ '/assets/images/tesla-fremont-visit.webp' | relative_url }}" alt="Ankita outside Tesla’s factory, with the Tesla sign visible on the building." width="1200" height="1600" loading="lazy">
+          <figcaption>03 / Tesla factory tour · Automation up close</figcaption>
         </figure>
         <div class="story-copy">
           <p class="eyebrow">On the ground</p>
           <h3>Where code meets steel.</h3>
-          <p>Touring Tesla’s robotic factory in Fremont brought automation out of the abstract and into motion. I saw software, machines, and manufacturing at scale up close.</p>
+          <p>Touring Tesla’s robotic factory brought automation out of the abstract and into motion. I saw software, machines, and manufacturing at scale up close.</p>
         </div>
       </article>
 
