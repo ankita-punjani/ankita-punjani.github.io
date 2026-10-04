@@ -109,7 +109,7 @@ permalink: /
 <section class="moments-section" aria-labelledby="moments-title">
   <div class="site-shell">
     <header class="moments-intro">
-      <p class="eyebrow">Beyond the bullet points / 01-05</p>
+      <p class="eyebrow">Beyond the bullet points / 01-07</p>
       <div>
         <h2 id="moments-title">The best ideas<br>leave the page.</h2>
         <p class="moments-lede">From Berkeley to Lithuania and Fremont: people and places where technology, AI, and new markets come into focus.</p>
@@ -177,6 +177,30 @@ permalink: /
           <ul class="story-highlights">
             <li>Devised a U.S. market-entry strategy for European AI Data Foundry through expert calls and market research across Silicon Valley tech labs.</li>
           </ul>
+        </div>
+      </article>
+
+      <article class="story story-portrait" id="board-fellow" aria-labelledby="board-fellow-title">
+        <figure class="story-media">
+          <img src="{{ '/assets/images/board-fellow.webp' | relative_url }}" alt="Ankita and two nonprofit board colleagues stand beside a board self-assessment poster." width="1600" height="2133" loading="lazy">
+          <figcaption>06 / Berkeley Board Fellow program · Bay Area nonprofit · Board service in practice</figcaption>
+        </figure>
+        <div class="story-copy">
+          <p class="eyebrow">Berkeley Board Fellow program</p>
+          <h3 id="board-fellow-title">Leading change at the board table.</h3>
+          <p>Through Berkeley Board Fellows, I served as a board member for a Bay Area nonprofit and led a transformation in its board management.</p>
+        </div>
+      </article>
+
+      <article class="story story-landscape story-reverse" id="women-leadership-vc" aria-labelledby="women-leadership-vc-title">
+        <figure class="story-media">
+          <img src="{{ '/assets/images/women-leadership-vc.webp' | relative_url }}" alt="Ankita and a group of women pose together outdoors at a Women in Leadership and VC event." width="1800" height="1350" loading="lazy">
+          <figcaption>07 / Women in Leadership &amp; VC · Curated community · Tech investing</figcaption>
+        </figure>
+        <div class="story-copy">
+          <p class="eyebrow">Women in Leadership &amp; VC</p>
+          <h3 id="women-leadership-vc-title">Where women’s leadership meets venture capital.</h3>
+          <p>I’m energized by curated events that bring women in leadership and venture capital together. I also regularly host technology and investing discussions, creating space to share ideas and learn from one another.</p>
         </div>
       </article>
     </div>

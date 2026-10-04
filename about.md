@@ -13,7 +13,7 @@ permalink: /about/
 
   <section class="content-section" aria-labelledby="path-title">
     <h2 id="path-title">At Haas</h2>
-    <p>I serve as Vice President of Academics for the Haas Consulting Club and as a Berkeley Board Fellow. I also support deferred MBA admissions as a Graduate Student Assistant.</p>
+    <p>I serve as Vice President of Academics for the Haas Consulting Club and support deferred MBA admissions as a Graduate Student Assistant. Through Berkeley Board Fellows, I served as a board member for a Bay Area nonprofit and led a transformation in its board management.</p>
   </section>
 
   <section class="content-section" aria-labelledby="education-title">
