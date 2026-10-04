@@ -18,11 +18,11 @@ permalink: /projects/
       <dl class="project-details">
         <div>
           <dt>What it does</dt>
-          <dd class="project-placeholder">[Placeholder - add details]</dd>
+          <dd>Creates a concise, in-house roundup of relevant news for the Harlem Capital team.</dd>
         </div>
         <div>
           <dt>Tools used</dt>
-          <dd class="project-placeholder">[Placeholder - add tools]</dd>
+          <dd>AI summarization - turns relevant updates into a quick, easy-to-scan briefing.</dd>
         </div>
       </dl>
     </article>
@@ -33,12 +33,12 @@ permalink: /projects/
       <p class="project-description">A small version of ChatGPT I built.</p>
       <dl class="project-details">
         <div>
-          <dt>Approach</dt>
-          <dd class="project-placeholder">[Placeholder - add approach]</dd>
+          <dt>What it does</dt>
+          <dd>Lets someone enter a prompt and get a conversational response from an AI model.</dd>
         </div>
         <div>
           <dt>Tools used</dt>
-          <dd class="project-placeholder">[Placeholder - add tools]</dd>
+          <dd>A language model generates replies; a chat interface sends prompts and displays them.</dd>
         </div>
       </dl>
     </article>
@@ -49,12 +49,12 @@ permalink: /projects/
       <p class="project-description">I trained an LLM to play Pac-Man.</p>
       <dl class="project-details">
         <div>
-          <dt>Approach</dt>
-          <dd class="project-placeholder">[Placeholder - add approach]</dd>
+          <dt>What it does</dt>
+          <dd>Trains a language model to choose Pac-Man’s next move as the game unfolds.</dd>
         </div>
         <div>
-          <dt>Results</dt>
-          <dd class="project-placeholder">[Placeholder - add results]</dd>
+          <dt>Tools used</dt>
+          <dd>A language model chooses actions; the game environment provides states and feedback.</dd>
         </div>
       </dl>
     </article>
