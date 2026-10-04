@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
 <head>
+  {% assign canonical_redirect = page.redirect_to | split: '#' | first %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
-  <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
-  <title>Profile moved | {{ site.title }}</title>
+  <link rel="canonical" href="{{ canonical_redirect | absolute_url }}">
+  <title>Page moved | {{ site.title }}</title>
 </head>
 <body>
-  <p>This page is now part of the <a href="{{ page.redirect_to | relative_url }}">Work Profile</a>.</p>
+  <p>This page has moved. Continue to <a href="{{ page.redirect_to | relative_url }}">About Me</a>.</p>
 </body>
 </html>

@@ -4,12 +4,12 @@ A static Jekyll portfolio for the GitHub Pages user site `ankita-punjani.github.
 
 ## Update the site
 
-- Edit `index.md`, `experience.md`, and `contact.md` to update page content.
+- Edit `index.md` and `about.md` to update page content. `experience.md` and `contact.md` preserve the previous URLs as redirects.
 - Edit `_data/navigation.yml` to change the primary navigation.
-- The old `/about/` URL redirects to the Work Profile.
+- The old `/experience/` URL redirects to About Me. The old `/contact/` URL redirects to the contact section on About Me.
 - Edit `_config.yml` for site-wide metadata and `assets/css/portfolio.css` for the visual design.
-- The public Work Profile lists company names only. Keep job titles, dates, projects, and results for the résumé unless Ankita asks to publish them.
-- The email link on the Contact page is public. The phone number from the résumé is not published.
+- Keep company-specific details limited to what Ankita explicitly approved. Do not add unapproved dates, projects, or results.
+- The email link on About Me is public. The phone number from the résumé is not published.
 
 ## Preview locally
 

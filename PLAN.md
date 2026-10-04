@@ -5,9 +5,8 @@ Create a static Jekyll portfolio for `ankita-punjani.github.io`, published from 
 
 ## Pages and content
 - **Home:** Introduce Ankita as a Berkeley Haas MBA candidate (Class of 2027), working part-time at Harlem Capital, a leading early-stage VC firm. Include her stated pre-MBA investment banking work at JPMorgan Chase, private-equity consulting at Bain and Strategy&, and interest in technology projects and consumer tech. Keep the personal facts visible near the top: national-level gymnastics bronze, an 18,000-foot tandem skydive, contemporary dance, calligraphy, and Zumba.
-- **Work Profile:** Link and visually emphasize the company names and logos for Harlem Capital, Strategy& (PwC), Stellaris Venture Partners, Bain & Company, and JPMorgan Chase. Include only details Ankita has explicitly supplied: the Harlem Capital internship and part-time context; private-equity consulting at Bain and Strategy&; investment banking at JPMorgan Chase; and the Pre-MBA Investments Intern and Chief of Staff roles at Stellaris. Include education, languages, Haas leadership, and community work here. Do not add dates, projects, or metrics beyond supplied details.
-- Do not add a standalone About page or navigation tab. Keep the old `/about/` URL redirecting to Work Profile.
-- **Contact:** A public `mailto:ankita_punjani@berkeley.edu` link, plus the supplied LinkedIn and GitHub profile links.
+- **About Me:** Combine the work profile and contact information on one page. Link and visually emphasize company names and logos for Harlem Capital, Strategy& (PwC), Stellaris Venture Partners, Bain & Company, and JPMorgan Chase. Include approved work details, education, languages, Haas leadership, community work, the public `mailto:ankita_punjani@berkeley.edu` link, and supplied social links. Do not add unapproved details.
+- Keep only Home and About Me in the primary navigation. The old `/experience/` URL redirects to About Me; `/contact/` redirects to its contact section.
 
 Use the résumé and details the user supplied in chat as the source of truth. Do not fetch content from LinkedIn or invent claims. Keep company-specific résumé details limited to those Ankita explicitly approved. Do not publish the phone number unless requested separately.
 
